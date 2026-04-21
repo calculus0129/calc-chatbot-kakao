@@ -1,0 +1,13 @@
+{
+  "name": "bot-script",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MessengerBot R 브리지 — TS 원본. 빌드하면 dist/bridge.js 가 나오고, 그걸 MessengerBot 에 붙여넣음.",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

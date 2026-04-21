@@ -1,0 +1,41 @@
+# ============================================================================
+# Secrets — never commit these
+# ============================================================================
+# Any file that contains an API key, token, password, or other credential.
+# If you need a template for teammates, commit `.env.example` with placeholder
+# values and keep the real `.env` out of git.
+.env
+.env.*
+!.env.example
+*.secret
+*.key
+secrets/
+credentials/
+
+# ============================================================================
+# OS / editor junk
+# ============================================================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# VSCode — keep shared settings, ignore personal/local state
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+
+# ============================================================================
+# Logs / local debugging output
+# ============================================================================
+*.log
+logs/
+
+# Coding Agents
+.claude
